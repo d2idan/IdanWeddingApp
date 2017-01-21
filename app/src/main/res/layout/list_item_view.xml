@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/attraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_marginBottom="8dp"
+            tools:text="זיקוקים"
+            android:textSize="@dimen/data_size"/>
+        <TextView
+            android:id="@+id/advanced_payment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מקדמה"
+            android:textStyle="bold"
+            android:textSize="@dimen/data_size"
+            />
+        <TextView
+            android:id="@+id/advanced_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="200"
+            android:textStyle="italic"
+            android:textSize="@dimen/data_size"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="יתרת תשלום"
+            android:textStyle="bold"
+            android:textSize="@dimen/data_size"
+            />
+        <TextView
+            android:id="@+id/balance_due"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="1500"
+            android:textStyle="italic"
+            android:textSize="@dimen/data_size"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/colored_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:background="@color/bright_blue">
+
+        <TextView
+            android:id="@+id/provider_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="עידן"
+            android:textSize="@dimen/private_data_size"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+           />
+
+        <TextView
+            android:id="@+id/provider_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="0524224923"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:textSize="@dimen/private_data_size"
+           />
+
+        <ImageView
+            android:id="@+id/phone_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@android:drawable/ic_menu_call"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

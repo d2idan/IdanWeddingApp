@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">חן ועידן מתחתנים</string>
+    <string name="nir_phone">0525376351</string>
+    <string name="amit_phone">0508213182</string>
+    <string name="kfir_phone">0507529972</string>
+    <string name="udi_phone">0502500604</string>
+    <string name="danny_phone">0544720163</string>
+    <string name="nir">ניר</string>
+    <string name="amit">עמית</string>
+    <string name="kfir">כפיר</string>
+    <string name="udi">אודי</string>
+    <string name="danny">דני</string>
+    <string name="ILS">\u20AA</string>
+
+</resources>
